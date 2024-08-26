@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAkery E-Store</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Bakery E-Store</h1>
+    <nav>
+      <div class="nav-buttons">
+      <button class="nav-button" data-category="all">All</button>
+      <button class="nav-button" data-category="cake">Cakes</button>
+      <button class="nav-button" data-category="cupcake">Cupcakes</button>
+      <button class="nav-button" data-category="doughnuts">Donuts</button>
+      </div>
+      <div class="searchcart">
+
+        <div class="search-container">
+          <input type="text" id="search" placeholder="Search Items...">
+        </div>
+        <div class="cart-container">
+          
+          <div id="cart-info">
+            <button id="cart-button">Cart (<span id="cart-count">0</span> items)</button>
+            <p id="total-price">Total: $0.00</p>
+            <button type="button" id="clear-cart" >Clear</button>
+          </div>
+        </div>
+      </div>
+    </nav> 
+  </header>
+  <main id="items-container">
+    
+  </main>
+  <script src="./script/main.js"></script>
+</body>
+</html>
